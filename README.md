@@ -16,8 +16,9 @@
 Runs macOS Ventura.
 EFI is currently OpenCore 1.0.1
 
-all kexts were their latest versions as of Sep 2, 2024
-My laptop breathed its last breath a few weeks ago will not be updating it any further
+All kexts were their latest versions as of Sep 2, 2024.
+
+My laptop kicked the bucket a few weeks ago, so I will not be updating it any further.
 
 
 ## BIOS
