@@ -10,7 +10,7 @@
 - Apple Services (your results may vary but mine works)
 
 ## Not working:
-- Bluetooth (config.plist issue I never fixed)
+- Bluetooth (USB MAPPING ISSUE I NEVER FIXED SEE ISSUE 1)
 - Camera
 
 Runs macOS Ventura.
