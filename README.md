@@ -1,22 +1,23 @@
 # HP-Elitebook-x360-1030-G3-Hackintosh
 ## My EFI folder
 
-# ALWAYS USE YOUR OWN SSDTs !! CREATE THEM USING [SSDTTime](https://github.com/corpnewt/SSDTTime) !!
+# ALWAYS USE YOUR OWN SSDTs! CREATE THEM USING [SSDTTime](https://github.com/corpnewt/SSDTTime)
 
 ## Working:
 - Wifi
 - Touchscreen
 - All USB ports (not Thunderbolt just USB-C)
-- iMessage
+- Apple Services (your results may vary but mine works)
 
 ## Not working:
-- Bluetooth
+- Bluetooth (config.plist issue I never fixed)
 - Camera
 
-Runs macOS Ventura, might spoof for Sonoma support eventually.
+Runs macOS Ventura.
 EFI is currently OpenCore 1.0.1
 
-all kexts are their latest versions as of Sep 2, 2024
+all kexts were their latest versions as of Sep 2, 2024
+My laptop breathed its last breath a few weeks ago will not be updating it any further
 
 
 ## BIOS
@@ -32,7 +33,7 @@ all kexts are their latest versions as of Sep 2, 2024
 - Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
 - Intel SGX
 - Intel Platform Trust
-- CFG Lock (MSR 0xE2 write protection)(This must be off, if you can't find the option then enable AppleXcpmCfgLock under Kernel -> Quirks. Your hack will not boot with CFG-Lock enabled)
+- CFG Lock (MSR 0xE2 write protection)(This must be off, if you can't find the option like me, enable AppleXcpmCfgLock under Kernel -> Quirks. Your hack will NOT boot with CFG-Lock enabled)
 
 ### Enable
 
@@ -48,7 +49,6 @@ all kexts are their latest versions as of Sep 2, 2024
 ### If available:
 - Virtualization Technology (VTx) - Yes
 - Virtualization Technology for Directed I/O (VTd) - Yes
-- Fast Boot - No
 - Video Memory Size - 64 MB
 - Intel Management Enginge (ME) - Yes
 
